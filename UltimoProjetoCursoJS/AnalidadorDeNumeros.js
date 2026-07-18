@@ -8,3 +8,16 @@ function clicada () {
     alert ("Número inválido")
 }
 }
+function resultado () {
+    let resul = document.getElementById('res')
+    let txtmenor = document.getElementById('menor')
+    let txtmaior = document.getElementById('maior')
+    let quantidade = numiniciais.length
+    let sortido = numiniciais.sort()
+    resul.innerText = `Ao todo temos ${quantidade} números cadastrados`
+    txtmenor.innerText = `O Menor número é ${numiniciais[0]}`
+    txtmaior.innerText = `O maior número é ${numiniciais[numiniciais.length - 1]}`
+    
+
+}
+
